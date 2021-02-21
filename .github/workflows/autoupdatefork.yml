@@ -2,6 +2,7 @@
 name: update fork
 
 on: 
+  repository_dispatch:
   schedule:
     - cron: '0 16 * * *' #设置定时任务
 
